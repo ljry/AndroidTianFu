@@ -31,7 +31,7 @@
         android:id="@+id/jiancewang"
         android:layout_width="409dp"
         android:layout_height="171dp"
-        android:src="@drawable/30"
+        android:src="@drawable/tianfuwang"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView"
         tools:srcCompat="@drawable/tianfuwang" />
@@ -207,12 +207,53 @@
             app:srcCompat="@drawable/ic_baseline_dehaze_24" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/huazhuangping"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="6dp"
-            tools:layout_editor_absoluteY="175dp" />
+            android:layout_marginTop="2dp"
+            android:text="化妆品检测"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/shipin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="1dp"
+            android:text="食品检测"
+            app:layout_constraintStart_toEndOf="@+id/huazhuangping"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/shuizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="1dp"
+            android:text="水质检测"
+            app:layout_constraintStart_toEndOf="@+id/shipin"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/jiliang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="1dp"
+            android:text="计量标准"
+            app:layout_constraintStart_toEndOf="@+id/shuizhi"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <TextView
+            android:id="@+id/gengduo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="1dp"
+            android:text="更多"
+            app:layout_constraintStart_toEndOf="@+id/jiliang"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
