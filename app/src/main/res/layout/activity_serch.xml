@@ -99,13 +99,120 @@
             app:srcCompat="@drawable/ic_baseline_location_city_24" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/jianzhu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="建筑材料"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/建筑材料" />
+
+        <TextView
+            android:id="@+id/工程"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="2dp"
+            android:text="工程检测"
+            app:layout_constraintStart_toEndOf="@+id/jianzhu"
+            app:layout_constraintTop_toBottomOf="@+id/gongcheng" />
+
+        <TextView
+            android:id="@+id/dianzi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="3dp"
+            android:text="电子产品"
+            app:layout_constraintStart_toEndOf="@+id/工程"
+            app:layout_constraintTop_toBottomOf="@+id/电子产品" />
+
+        <TextView
+            android:id="@+id/gonggong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="3dp"
+            android:text="公共场所"
+            app:layout_constraintStart_toEndOf="@+id/dianzi"
+            app:layout_constraintTop_toBottomOf="@+id/公共场所" />
+
+        <TextView
+            android:id="@+id/jiyin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="3dp"
+            android:text="基因检测"
+            app:layout_constraintStart_toEndOf="@+id/gonggong"
+            app:layout_constraintTop_toBottomOf="@+id/基因检测" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jianzhu"
+            app:srcCompat="@drawable/ic_baseline_spa_24" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/工程"
+            app:srcCompat="@drawable/ic_baseline_restaurant_menu_24" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/dianzi"
+            app:srcCompat="@drawable/ic_baseline_invert_colors_24" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="7dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/gonggong"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/jiyin"
+            app:srcCompat="@drawable/ic_baseline_dehaze_24" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="175dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
