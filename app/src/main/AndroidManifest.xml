@@ -8,8 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
-        <activity android:name=".account"></activity>
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        <activity android:name=".ItemGroup"></activity>
+        <activity android:name=".person" />
+        <activity android:name=".account" />
         <activity android:name=".cart" />
         <activity android:name=".register" />
         <activity android:name=".login" />
