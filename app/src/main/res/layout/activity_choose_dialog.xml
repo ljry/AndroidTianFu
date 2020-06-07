@@ -24,7 +24,7 @@
                 android:id="@+id/commidity_img_small"
                 android:layout_width="100dp"
                 android:layout_height="80dp"
-                android:background="@drawable/ddhk_home_banner" />
+                android:background="@drawable/jiaju" />
 
             <TextView
                 android:id="@+id/commodity_money"
